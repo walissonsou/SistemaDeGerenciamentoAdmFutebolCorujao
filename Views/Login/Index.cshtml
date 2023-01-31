@@ -1,0 +1,15 @@
+﻿@model GerenciarGrupoCorujao.Models.UserViewModel
+@{
+    Layout = null;
+}
+<link href="~/css/login.css" rel="stylesheet" />
+<section>
+    <form action="/login/Teste" method="post">
+        <h1> Login adm </h1>
+        <input type="text" name="email" value="@Model.Email" placeholder="Email ou username" />
+        <input type="password" name="password" value="@Model.Pwd" placeholder="Password"/>      
+        <label> Esqueceu a senha<a href="#"> Clique aqui</a> </label>
+        <button type="submit"> Login </button>
+    </form>
+    <label> Não tem conta? <a href="#"> Clique aqui</a> </label>
+</section>

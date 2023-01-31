@@ -1,0 +1,30 @@
+﻿section {
+    border: 1px solid gray;
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    margin: 200px auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+    align-items: center;
+}
+button {
+    background-color: lightgreen;
+    border: none;
+    width: 177px;
+    border-radius: 2px;
+}
+button:hover{
+    background-color: lawngreen;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
